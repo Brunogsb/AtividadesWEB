@@ -1,0 +1,77 @@
+ SOBRE TAGS DO HMTL5
+
+O HTML5 assim como qualquer outra linguagem ao ser atualizada, além de receber novo comandos, aposenta outros. Dessa forma, as tags que permanecem em uso no HTML5 e as tags que foram descontinuadas e só servem para as versões anteriores.
+
+O HTML existe desde 1991 e atualmente está na versão 5, que veio recheada de recursos e funcionalidades que trazem melhorias para o desenvolvimento web, sua responsabilidade principal é demarcar a estrutura de uma página da web.
+Essa estrutura do HTML é formada por um conjunto de elementos, ou seja, os hipertextos, que se conectam entre si formando a página. Os elementos HTML ou também chamados de tags HTML, são utilizados para informar ao navegador que tipo de estrutura é essa que está sendo construída, podendo ser títulos, parágrafos, imagens, links, entre outros.
+Dessa forma, para que um documento seja interpretado pelo navegador, é necessário que o arquivo tenha a extensão .html e a partir disso, poderá ser exibido por qualquer navegador web.
+
+As definições foram dividas para serem identificadas pelo os usario, assim facilitando o que poderia funcionar ou o que tinha deixar de existir. Então foram dividas por Tags Continuadas e Tags Descontinuadas.
+
+Segue a sergui a lista das Tags Continuadas:
+
+<!--...--> Define um comentário;
+<!DOCTYPE> Define o tipo de documento; (No HTML 4 existiam três (3) diferentes tipos de doctype, mas no HTML 5 temos apenas um (1) tipo <!DOCTYPE HTML>. É aqui que o navegador entende o tipo de documento e como ele deve interpretar as tags nele contidas.)
+<a> Define um hyperlink;
+<abbr> Define uma abreviação
+<address> Define um endereço, assim passa a ser tratado como uma seção;
+<area> Define uma área dentro de um mapa de imagem;
+<b> Define um texto em negrito; 
+<base> Define uma base URL para todos os links da página;
+<bdo> Define a direção do texto apresentado;
+<blockquote> Define uma citação longa;
+<body> Define o corpo da página;
+<br> Insere uma quebra de linha simples;
+<button> Define um botão de comando;
+<caption> Define o "caption" de uma tabela;
+<cite> Define uma citação;
+<code> Define o código texto do computador;
+<col> Define os atributos da coluna da tabela;
+<colgroup> Define um grupo de colunas da tabela;
+<dd> Define uma descrição de definição;
+<del> Define um texto deletado;
+<dfn> Define um termo de definição;
+<div> Define uma seção no documento;
+<dl> Define uma lista de definição;
+<dt> Define um termo de definição;
+<em> Define um texto em ênfase;
+<fieldset> Define um conjunto de campos (fieldset);
+<form> Define um formulário;
+<h1> até >h6> Define do cabeçalho 1 até o cabeçalho 6;
+<head> Define uma informação sobre o documento. (Não aceita mais elementos Child como filho);
+<hr> Define uma regra horizontal. (Tem o mesmo nível que um parágrafo, mas também é utilizado para fazer separações e quebras de linha);
+<html> Define um documento html;
+<i> Define um texto em itálico; (Possui o mesmo nível semântico que um SPAN. O texto continua sendo itálico e para usuários de leitores de tela, a voz utilizada é modificada para indicar ênfase. É de grande valor e utilidade para marcar, termos técnicos, termos em outras linguagens etc.)
+<iframe> Define uma linhas sobre a janela (frame);
+<img> Define uma imagem;
+<input> Define um campo de inserção;
+
+Essas são algumas tags que são utilizadas até hoje, para poder ter um bom desempenho.
+
+Já existe as tags que acabaram sendo descartada do leque de código para serem utiliziada mais do HTML5, assim tendo mais funções e tendo mais praticidade para o desenvolviemnto.
+
+Tags Descontinuadas:
+
+<acronym> Define siglas em HTML 4.01.
+<applet> Define um miniaplicativo incorporado. 
+<basefont> Define as propriedads da font padrão para todo o texto do documento. 
+<big> Usado para tornar o texto maior. 
+<center> Usado para alinhar texto e conteúdo no centro.
+<dir> Define a lista do diretório. (Ficou obsoleto em função da Tag <ul>);
+<font> Especifica o tipo de fonte, tamanho, e cor do texto.
+<frame> Define uma janela particular dentro de um conjunto de "frames" 
+<frameset> Define um conjunto de frames organizado por múltiplas janela
+<strike> Exibe texto rasurado. 
+<tt> Define teletipo de texto. 
+<u> Define sublinhado. 
+<xmp> Define texto pré-formatado.
+
+Se analisarmos bem as definições podemos perceber que muitas tags descontinuadas tiveram esse fim por já existirem tags que realizam a mesma função. E ao utilizar o HTML 5 você perceberá que algumas tags continuadas foram modificadas e passaram a exercer outras propriedades, fazendo, também, que outras tags percam valor.
+
+Atributos HTML são palavras especiais usadas dentro da tag de abertura para controlar o comportamento do elemento. Os atributos HTML são um modificador de um tipo de elemento HTML. Com eles podemos identificar melhor um elemento, informar qual arquivo aquela tag deve utilizar, indicar o tipo de um campo de texto, etc…
+Há dois tipos de atributos no HTML, os globais que são aceitos por todas as tags, como por exemplo: class, id, lang, style e algumas outras que você pode conferir na documentação também existem os específicos que somente algumas tags possuem, como src, disabled, href, label, etc…
+
+Referencias:
+
+https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica?utm_source=gnarus&utm_medium=timeline
+https://www.devmedia.com.br/comandos-e-tags-html5/23618
